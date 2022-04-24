@@ -1,8 +1,9 @@
 # numpy-scipy
 playing sklearn_wine_dataset with numpy&amp;scipy 
 
-
-출처 - `SciPy and NumPy` - O'Reilly
+참고
+- `SciPy and NumPy` - O'Reilly
+- [데이터 사이언스 스쿨]( https://datascienceschool.net/02%20mathematics/02.01%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20%ED%96%89%EB%A0%AC.html)
 
 ### Numpy
 - Numerical computing in python 
@@ -30,7 +31,10 @@ playing sklearn_wine_dataset with numpy&amp;scipy
 - scalar(1d)
 	- 숫자 하나로 이루어진 데이터
 - vector(2d)
-	- 여러 숫자로 이루어진 데이터 레코드 (n,)
+	- 여러 숫자로 이루어진 데이터 레코드 (n,) tuple
+	- 데이터는 여러 칼럼 값으로 이루어져 있다 (순서가 중요하다)
+	- feature vector (특징 벡터)
+		- 데이터 벡터가 예측 문제에서 입력 데이터로 사용될 경우 
 - matrix(2d)
 	- 벡터가 여럿인 데이터 집합 (n,m)
 - tensor(3d) 
